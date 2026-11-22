@@ -29,16 +29,16 @@ Every question starts at 15 seconds. The program uses root.after(1000, update_ti
   The score goes up by 1 for every correct answer. The percentage is the score divided by 10, then multiplied by 100. The high score is     saved in high_score.txt, and the program only replaces it when my new score is higher. 
 
 
-## Function Explanations
-| Functions          | Purpose                                          | Called When                                 |
-| start_quiz()       | Resets everything and shuffles the questions     | Start or Restart is clicked                 |
-| update_timer()     | Shows the time left and counts down every second | A question is shown                         |
-| stop_timer()       | Stops the countdown                              | An answer is submitted or the quiz restarts |
-| submit_answer()    | Checks the answer and adds to the score          | Submit is clicked                           |
-| time_up()          | Marks the question wrong when time runs out      | The timer reaches 0                         |
-| get_high_score()   | Reads the high score from the text file          | The start screen opens                      |
-| save_high_score()  | Saves the score if it is higher than the old one | The results screen is shown                 |
-| show_results()     | Shows the score, percentage, message, and review | After question 10                           |
+| Function | Purpose | Called when |
+|----------|---------|-------------|
+| start_quiz() | Resets everything and shuffles the questions | Start or Restart is clicked |
+| update_timer() | Shows the time left and counts down every second | A question is shown |
+| stop_timer() | Stops the countdown | An answer is submitted or the quiz restarts |
+| submit_answer() | Checks the answer and adds to the score | Submit is clicked |
+| time_up() | Marks the question wrong when time runs out | The timer reaches 0 |
+| get_high_score() | Reads the high score from the text file | The start screen opens |
+| save_high_score() | Saves the score if it is higher than the old one | The results screen is shown |
+| show_results() | Shows the score, percentage, message, and review | After question 10 |
 
 ## Screenshots 
 <img width="942" height="632" alt="start" src="https://github.com/user-attachments/assets/00645b3d-0f6d-4784-bcbc-c6d7e2a3113d" />
